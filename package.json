@@ -1,0 +1,18 @@
+{
+  "name": "chatnodejs",
+  "version": "1.0.0",
+  "description": "my primer chat  con socketIO",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon sockets/server.js"
+  },
+  "author": "bryan brando",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
